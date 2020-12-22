@@ -1,5 +1,3 @@
-using System;
-
 namespace RegistrationDemoMvc.WebApp.Models
 {
     public class ErrorViewModel

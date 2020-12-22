@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RegistrationDemoMvc.WebApp.Models;
 
 namespace RegistrationDemoMvc.WebApp.Controllers
 {
@@ -9,7 +10,7 @@ namespace RegistrationDemoMvc.WebApp.Controllers
             return View();
         }
 
-        public IActionResult Post(RegisrationModel model)
+        public IActionResult Post(RegistrationModel model)
         {
             return View("Index", model);
         }
